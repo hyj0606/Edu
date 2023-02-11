@@ -1,0 +1,17 @@
+server:
+  port: 9120
+
+spring:
+  profiles:
+    # 环境设置
+    active: dev
+
+  application:
+    # 服务名
+    name: service_oss
+aliyun:
+  oss:
+    endpoint: oss-cn-shanghai.aliyuncs.com
+    KeyId: LTAI5tCk3sZxmSQoeQvczQPR
+    KeySecret: h7g2rzXD1hV4uZNLaHiRzbtx0cDlgs
+    buketName: hyjedu-file
